@@ -19,75 +19,7 @@ def get_connection():
     return connection
 
 
-def add_new_line(id_user):
-    connection = get_connection()
-    try:
-        with connection.cursor() as cursor:
-            sql = "INSERT INTO user (id_vk, menu_vk, likes, dislikes, reports, reports_admin, sum_reaction, is_don, " \
-                  "likes_last, dislikes_last, reports_last) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
-            cursor.execute(sql, (id_user, "1", "0", "0", "0", "0", "0", "0", "0", "0", "0"))
-        connection.commit()
-    finally:
-        connection.close()
-    return
-
-
-def take_position(id_user):
-    connection = get_connection()
-    try:
-        with connection.cursor() as cursor:
-            sql = "SELECT menu_vk FROM user WHERE id_vk = %s"
-            cursor.execute(sql, (id_user))
-            line = cursor.fetchone()
-            if line is None:
-                return_count = 0
-            else:
-                return_count = line["menu_vk"]
-    finally:
-        connection.close()
-    return return_count
-
-
-def check_donuts(donuts_list):
-    connection = get_connection()
-    try:
-        with connection.cursor() as cursor:
-            sql = "SELECT id_vk FROM user WHERE is_don = %s AND blacklist != 2 AND blacklist != 3"
-            cursor.execute(sql, ("1"))
-            row = [item['id_vk'] for item in cursor.fetchall()]
-            print(row)
-            not_donuts = list(set(row)-set(donuts_list["response"]["items"]))
-            for i in range(0, len(not_donuts)):
-                sql = "UPDATE user SET is_don = %s WHERE id_vk = %s"
-                cursor.execute(sql, ("0", not_donuts[i]))
-        connection.commit()
-    finally:
-        connection.close()
-    return
-
-
-def update_donuts_status(id_user):
-    connection = get_connection()
-    try:
-        with connection.cursor() as cursor:
-            sql = "UPDATE user SET is_don = %s WHERE id_vk = %s"
-            cursor.execute(sql, ("1", id_user))
-        connection.commit()
-    finally:
-        connection.close()
-    return
-
-
-def update_admin_status():
-    connection = get_connection()
-    try:
-        with connection.cursor() as cursor:
-            sql = "UPDATE user SET is_don = %s WHERE blacklist = 2 OR blacklist = 3"
-            cursor.execute(sql, ("1"))
-        connection.commit()
-    finally:
-        connection.close()
-    return
+#Тут удалены 5 функций на 80 строк
 
 
 #if __name__ == '__main__':
@@ -101,7 +33,7 @@ def main_start():
     try:
         r = requests.get('https://api.vk.com/method/groups.getMembers',
                           params={'access_token': config.token_standalone,
-                                  'group_id': "163426674",
+                                  'group_id': "$",
                                   'sort': "id_asc",
                                   'offset': "0",
                                   'count': "500",

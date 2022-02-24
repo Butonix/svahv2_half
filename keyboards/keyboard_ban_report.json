@@ -1,0 +1,34 @@
+{
+  "one_time": false,
+  "buttons": [
+    [{
+      "action": {
+        "type": "text",
+        "label": "Бан"
+      },
+      "color": "negative"
+    },
+	{
+        "action": {
+          "type": "text",
+          "label": "Шадоубан"
+        },
+        "color": "negative"
+    },
+      {
+      "action": {
+        "type": "text",
+        "label": "Обнулить репорты"
+      },
+      "color": "positive"
+    }],
+	[
+      {
+      "action": {
+        "type": "text",
+        "label": "Вернуться в админку"
+      },
+      "color": "default"
+    }]
+  ]
+}

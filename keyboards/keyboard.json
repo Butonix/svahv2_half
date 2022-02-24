@@ -1,0 +1,20 @@
+{
+  "one_time": false,
+  "buttons": [
+    [{
+      "action": {
+        "type": "text",
+        "label": "Поиск собеседника"
+      },
+      "color": "positive"
+    }],
+	[
+      {
+      "action": {
+        "type": "text",
+        "label": "Настройки"
+      },
+      "color": "default"
+    }]
+  ]
+}

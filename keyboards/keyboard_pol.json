@@ -1,0 +1,27 @@
+{
+  "one_time": false,
+  "buttons": [
+    [{
+      "action": {
+        "type": "text",
+        "label": "М"
+      },
+      "color": "positive"
+    },
+	{
+        "action": {
+          "type": "text",
+          "label": "Ж"
+        },
+        "color": "positive"
+      }],
+	[
+      {
+      "action": {
+        "type": "text",
+        "label": "СТОП"
+      },
+      "color": "default"
+    }]
+  ]
+}

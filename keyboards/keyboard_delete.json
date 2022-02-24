@@ -1,0 +1,19 @@
+{
+  "one_time": false,
+  "buttons": [
+    [{
+      "action": {
+        "type": "text",
+        "label": "Удалить анкету и фото"
+      },
+      "color": "negative"
+    },
+	{
+        "action": {
+          "type": "text",
+          "label": "Оставить анкету и фото"
+        },
+        "color": "positive"
+    }]
+  ]
+}

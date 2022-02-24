@@ -1,0 +1,27 @@
+{
+  "one_time": false,
+  "buttons": [
+    [{
+      "action": {
+        "type": "text",
+        "label": "Включить уведомления"
+      },
+      "color": "positive"
+    },
+	{
+        "action": {
+          "type": "text",
+          "label": "Выключить уведомления"
+        },
+        "color": "negative"
+    }],
+	[
+      {
+      "action": {
+        "type": "text",
+        "label": "Выйти в админку"
+      },
+      "color": "default"
+    }]
+  ]
+}

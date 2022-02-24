@@ -1,0 +1,44 @@
+{
+  "one_time": false,
+  "buttons": [
+	[
+      {
+      "action": {
+        "type": "text",
+        "label": "Статистика анкеты"
+      },
+      "color": "primary"
+      },
+      {
+      "action": {
+        "type": "text",
+        "label": "Определенный возраст"
+      },
+      "color": "primary"
+    }],
+    [
+      {
+      "action": {
+        "type": "text",
+        "label": "Показываться опять тем, кто дизлайкнул"
+      },
+      "color": "primary"
+    }],
+    [
+      {
+      "action": {
+        "type": "text",
+        "label": "Обновить статус дона"
+      },
+      "color": "primary"
+    }],
+    [
+      {
+      "action": {
+        "type": "text",
+        "label": "Вернуться в настройки"
+      },
+      "color": "default"
+    }]
+  ]
+}

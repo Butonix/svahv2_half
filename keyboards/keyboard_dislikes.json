@@ -1,0 +1,27 @@
+{
+  "one_time": false,
+  "buttons": [
+    [{
+      "action": {
+        "type": "text",
+        "label": "Показываться тем, кто дизлайкнул"
+      },
+      "color": "positive"
+    }],
+	[{
+        "action": {
+          "type": "text",
+          "label": "Не показываться тем, кто дизлайкнул"
+        },
+        "color": "negative"
+    }],
+	[
+      {
+      "action": {
+        "type": "text",
+        "label": "Выйти в настройки донов"
+      },
+      "color": "default"
+    }]
+  ]
+}

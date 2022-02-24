@@ -1,0 +1,34 @@
+{
+  "one_time": false,
+  "buttons": [
+    [{
+      "action": {
+        "type": "text",
+        "label": "❤"
+      },
+      "color": "positive"
+    },
+	{
+        "action": {
+          "type": "text",
+          "label": "👎"
+        },
+        "color": "negative"
+    },
+	{
+       "action": {
+         "type": "text",
+         "label": "Жалоба"
+       },
+        "color": "secondary"
+      }],
+	[
+      {
+      "action": {
+        "type": "text",
+        "label": "Остановить поиск"
+      },
+      "color": "primary"
+    }]
+  ]
+}

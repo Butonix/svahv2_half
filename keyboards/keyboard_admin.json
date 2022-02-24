@@ -1,0 +1,72 @@
+{
+  "one_time": false,
+  "buttons": [
+    [{
+      "action": {
+        "type": "text",
+        "label": "Посмотреть список бан"
+      },
+      "color": "primary"
+    },
+	 {
+      "action": {
+        "type": "text",
+        "label": "Посмотреть список шадоубан"
+      },
+      "color": "primary"
+    }],
+	[
+      {
+        "action": {
+          "type": "text",
+          "label": "Добавить в список бан"
+        },
+        "color": "primary"
+      },
+      {
+        "action": {
+          "type": "text",
+          "label": "Добавить в список шадоубан"
+        },
+        "color": "primary"
+    }],
+    	[
+      {
+        "action": {
+          "type": "text",
+          "label": "Убрать из списка бан"
+        },
+        "color": "primary"
+      },
+      {
+        "action": {
+          "type": "text",
+          "label": "Убрать из списка шадоубан"
+        },
+        "color": "primary"
+    }],
+	[
+      {
+      "action": {
+        "type": "text",
+        "label": "Посмотреть зарепорченных"
+      },
+      "color": "primary"
+    },
+    {
+      "action": {
+        "type": "text",
+        "label": "Уведомления о репортах"
+      },
+      "color": "primary"
+    }],
+    [
+      {
+      "action": {
+        "type": "text",
+        "label": "Вернуться в главное меню"
+      },
+      "color": "default"
+    }]
+  ]
+}

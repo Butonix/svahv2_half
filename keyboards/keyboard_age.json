@@ -1,0 +1,27 @@
+{
+  "one_time": false,
+  "buttons": [
+    [{
+      "action": {
+        "type": "text",
+        "label": "Включить ограничение по возрасту"
+      },
+      "color": "positive"
+    }],
+	[{
+        "action": {
+          "type": "text",
+          "label": "Выключить ограничение по возрасту"
+        },
+        "color": "negative"
+    }],
+	[
+      {
+      "action": {
+        "type": "text",
+        "label": "Выйти в настройки донов"
+      },
+      "color": "default"
+    }]
+  ]
+}

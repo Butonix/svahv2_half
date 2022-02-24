@@ -1,0 +1,58 @@
+{
+  "one_time": false,
+  "buttons": [
+    [{
+      "action": {
+        "type": "text",
+        "label": "Вкл/выкл поиск"
+      },
+      "color": "primary"
+    },
+	 {
+      "action": {
+        "type": "text",
+        "label": "Вкл/выкл уведомления"
+      },
+      "color": "primary"
+    }],
+	[
+      {
+        "action": {
+          "type": "text",
+          "label": "Изменить анкету"
+        },
+        "color": "primary"
+      },
+      {
+        "action": {
+          "type": "text",
+          "label": "Изменить фото"
+        },
+        "color": "primary"
+    }],
+	[
+      {
+      "action": {
+        "type": "text",
+        "label": "Посмотреть/удалить анкету и фото"
+      },
+      "color": "primary"
+    }],
+    [
+      {
+      "action": {
+        "type": "text",
+        "label": "Настройки для донов"
+      },
+      "color": "primary"
+    }],
+    [
+      {
+      "action": {
+        "type": "text",
+        "label": "Вернуться в главное меню"
+      },
+      "color": "default"
+    }]
+  ]
+}

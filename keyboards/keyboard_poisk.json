@@ -1,0 +1,34 @@
+{
+  "one_time": false,
+  "buttons": [
+    [{
+      "action": {
+        "type": "text",
+        "label": "Ищу М"
+      },
+      "color": "positive"
+    },
+	{
+      "action": {
+        "type": "text",
+        "label": "Ищу Ж"
+      },
+      "color": "positive"
+    },
+	{
+        "action": {
+          "type": "text",
+          "label": "Без разницы"
+        },
+        "color": "positive"
+      }],
+	[
+      {
+      "action": {
+        "type": "text",
+        "label": "СТОП"
+      },
+      "color": "default"
+    }]
+  ]
+}

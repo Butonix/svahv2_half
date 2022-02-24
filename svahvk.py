@@ -23,14 +23,8 @@ def get_connection():
     return connection
 
 
-def number_is_num(num):
-    if num.isdigit():
-        if 16 <= int(num) <= 150 or int(num) == 0:
-            return True
-    return False
-
-
 #Удалено ~2000 строк кода
+
 
 def processing_message(id_user, message_text):
     number_position = take_position(id_user)
@@ -57,6 +51,7 @@ def processing_message(id_user, message_text):
         else:
             send_message(id_user, keyboards.k_start, "Непонятная команда")
 
+            
 #Удалено ~500 строк кода
 
 
